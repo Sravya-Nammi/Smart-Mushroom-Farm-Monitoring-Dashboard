@@ -35,11 +35,9 @@ Users can select:
 
 The system automatically adjusts environmental conditions based on optimal parameters for the selected strain and phase.
 
-**🖼️ UI Preview:**  
-![Auto Mode Page](images/auto_mode_page.png)
-
-Graphs Page:  <br/>
-<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%" alt="Automode page"/>
+**🖼️ Auto Mode Page:**  
+ <br/>
+<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
 <br />
 ---
 
@@ -54,9 +52,10 @@ Users can manually toggle:
 
 Allows direct control of the climate in fruiting chambers.
 
-**🖼️ UI Preview:**  
-![Actuator Control Page](images/actuator_control_page.png)
-
+**🖼️ Actuator Control Page:**  
+ <br/>
+<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
+<br />
 ---
 
 ### 🎛️ 4. Custom Mode Page
