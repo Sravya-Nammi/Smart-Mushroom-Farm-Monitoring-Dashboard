@@ -39,6 +39,8 @@ The system automatically adjusts environmental conditions based on optimal param
  <br/>
 <img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
 <br />
+
+
 ---
 
 ### 🛠️ 3. Actuator Control Page
@@ -56,6 +58,8 @@ Allows direct control of the climate in fruiting chambers.
  <br/>
 <img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
 <br />
+
+
 ---
 
 ### 🎛️ 4. Custom Mode Page
@@ -69,8 +73,11 @@ Users can input desired values for:
 
 Gives complete manual control over the environment.
 
-**🖼️ UI Preview:**  
-![Custom Mode Page](images/custom_mode_page.png)
+**🖼️ Custom Mode Page:**  
+ <br/>
+<img src="https://i.imgur.com/61YWBkd.png" height="80%" width="80%"/>
+<br />
+
 
 ---
 
@@ -85,8 +92,12 @@ Provides a side-by-side summary of:
 
 Facilitates fast comparison and condition tracking.
 
-**🖼️ UI Preview:**  
-![Overview Page](images/overview_page.png)
+**🖼️ Overview Page:**  
+ <br/>
+<img src="https://i.imgur.com/PwqWtch.png" height="80%" width="80%"/>
+<br />
+
+
 
 ---
 
