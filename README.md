@@ -17,11 +17,9 @@ This page displays live visualizations from Grafana, showing:
 
 These allow users to proactively detect abnormal conditions and take action.
 
-**🖼️ UI Preview:**  
-![Graphs Page](images/graphs_page.png)
-
-Graphs Page:  <br/>
-<img src="https://i.imgur.com/ToLXgiy.png" height="80%" width="80%" alt="Graphs page"/>
+**🖼️ Graphs Page:**  
+ <br/>
+<img src="https://i.imgur.com/ToLXgiy.png" height="80%" width="80%" />
 <br />
 
 
