@@ -40,6 +40,9 @@ The system automatically adjusts environmental conditions based on optimal param
 **🖼️ UI Preview:**  
 ![Auto Mode Page](images/auto_mode_page.png)
 
+Graphs Page:  <br/>
+<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%" alt="Automode page"/>
+<br />
 ---
 
 ### 🛠️ 3. Actuator Control Page
