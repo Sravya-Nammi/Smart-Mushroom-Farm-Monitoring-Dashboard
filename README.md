@@ -109,6 +109,11 @@ Facilitates fast comparison and condition tracking.
 - **Deployment:** Docker, Virtual Machine
 - **Monitoring:** Real-time sensor data display
 
+**🖼️ System Architecture:**  
+ <br/>
+<img src="https://i.imgur.com/QXD8sKI.png" height="80%" width="80%"/>
+<br />
+
 ---
 
 ## 🧪 Developed with Real-World Insights
