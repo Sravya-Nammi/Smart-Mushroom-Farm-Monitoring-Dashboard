@@ -1,58 +1,102 @@
-<h1>JWipe - Disk Sanitization</h1>
+# 🍄 Smart Mushroom Farm Dashboard
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+A real-time web-based GUI designed to monitor and automate environmental control in mushroom fruiting chambers. This system was developed in collaboration with Pilzling GmbH to address real-world automation needs using Angular, MQTT, Docker, and Grafana.
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+---
 
+## 🚀 Key Features of the User Interface
 
-<h2>Languages and Utilities Used</h2>
+### 📊 1. Graphs Page
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+**Scenario:** A user notices a sudden temperature drop on the graph and wants to investigate.
 
-<h2>Environments Used </h2>
+This page displays live visualizations from Grafana, showing:
+- Temperature
+- Humidity
+- CO₂ levels
 
-- <b>Windows 10</b> (21H2)
+These allow users to proactively detect abnormal conditions and take action.
 
-<h2>Program walk-through:</h2>
+**🖼️ UI Preview:**  
+![Graphs Page](images/graphs_page.png)
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/ToLXgiy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+---
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+### 🤖 2. Auto Mode Page
+
+**Scenario:** A grower introduces a new mushroom strain ("Zitronenseitling") and sets the optimal growth phase ("Pinning").
+
+Users can select:
+- Mushroom strain (e.g., Rosenseitling, Zitronenseitling, Austern)
+- Growth stage (e.g., Incubation, Inoculation, Pinning, Harvest)
+
+The system automatically adjusts environmental conditions based on optimal parameters for the selected strain and phase.
+
+**🖼️ UI Preview:**  
+![Auto Mode Page](images/auto_mode_page.png)
+
+---
+
+### 🛠️ 3. Actuator Control Page
+
+**Scenario:** The humidity rises unexpectedly, prompting the user to manually activate ventilation.
+
+Users can manually toggle:
+- Ventilation system
+- Hot blowers
+- Mistifiers
+
+Allows direct control of the climate in fruiting chambers.
+
+**🖼️ UI Preview:**  
+![Actuator Control Page](images/actuator_control_page.png)
+
+---
+
+### 🎛️ 4. Custom Mode Page
+
+**Scenario:** The grower wants to fine-tune exact temperature and humidity values for a unique mushroom variant.
+
+Users can input desired values for:
+- Temperature
+- Humidity
+- CO₂
+
+Gives complete manual control over the environment.
+
+**🖼️ UI Preview:**  
+![Custom Mode Page](images/custom_mode_page.png)
+
+---
+
+### 🗂️ 5. Overview Page
+
+**Scenario:** The user wants to compare current conditions across two chambers to identify imbalances.
+
+Provides a side-by-side summary of:
+- Mushroom strains
+- Current temperature, humidity, and CO₂ levels
+- Development phase
+
+Facilitates fast comparison and condition tracking.
+
+**🖼️ UI Preview:**  
+![Overview Page](images/overview_page.png)
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** Angular, HTML, CSS, TypeScript
+- **Visualization:** Grafana, InfluxDB
+- **Backend Services:** Python, MQTT, ESP32 Integration
+- **Deployment:** Docker, Virtual Machine
+- **Monitoring:** Real-time sensor data display
+
+---
+
+## 🧪 Developed with Real-World Insights
+
+This project was developed through iterative feedback and brainstorming with **Christian Vetter**, CEO of Pilzling GmbH, ensuring that every feature meets actual agricultural automation needs.
+
+---
