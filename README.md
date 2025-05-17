@@ -56,7 +56,7 @@ Allows direct control of the climate in fruiting chambers.
 
 **🖼️ Actuator Control Page:**  
  <br/>
-<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/61YWBkd.png" height="80%" width="80%"/>
 <br />
 
 
@@ -75,7 +75,7 @@ Gives complete manual control over the environment.
 
 **🖼️ Custom Mode Page:**  
  <br/>
-<img src="https://i.imgur.com/61YWBkd.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/r50d1OC.png" height="80%" width="80%"/>
 <br />
 
 
